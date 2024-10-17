@@ -1,27 +1,31 @@
-# Exercício de Soma em JavaScript
+# Projeto: Calculadora de Soma
 
-Este repositório contém a resolução de um exercício simples para calcular a soma dos números de 1 a 100 utilizando JavaScript.
+Este projeto consiste em uma aplicação simples de soma, onde o usuário pode inserir um número entre 1 e 100, e o sistema calcula a soma dos números de 1 até o número informado.
 
-## Instruções
+## Funcionalidades
 
-1. Clone o repositório ou baixe os arquivos compactados.
-2. Abra o arquivo `index.html` no navegador.
-3. Clique no botão **CALCULAR** para ver o resultado da soma.
+- Permite ao usuário inserir um número entre 1 e 100.
+- Calcula a soma dos números de 1 até o número informado.
+- Exibe o resultado diretamente na página dentro de um retângulo estilizado.
+- Mostra uma mensagem de erro caso o número inserido esteja fora do intervalo permitido (1 a 100).
 
-## Estrutura de Arquivos
+## Tecnologias Utilizadas
 
-- `index.html` - Arquivo HTML com a estrutura da página.
-- `script.js` - Arquivo JavaScript contendo a lógica para calcular a soma.
+- **HTML5**: Para a estruturação da página.
+- **CSS3**: Para o estilo e design da página.
+- **JavaScript**: Para a lógica de cálculo da soma e manipulação do DOM.
+- **Visual Studio Code**: IDE utilizada para o desenvolvimento.
 
-## Ferramentas
+## Como Executar o Projeto
 
-- Editor de Código: [Visual Studio Code](https://code.visualstudio.com)
+1. Faça o clone deste repositório:
 
-## Como Contribuir
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-1. Fork este repositório.
-2. Crie uma branch com sua feature: `git checkout -b minha-feature`.
-3. Faça commit das suas alterações: `git commit -m 'Minha nova feature'`.
-4. Envie para a branch principal: `git push origin minha-feature`.
-5. Abra um Pull Request.
+## Estrutura do Projeto
 
+|-- index.html          # Página principal da aplicação
+|-- style.css           # Estilos CSS aplicados à página
+|-- script.js           # Lógica em JavaScript para calcular a soma
+|-- README.md           # Este arquivo com a documentação do projeto

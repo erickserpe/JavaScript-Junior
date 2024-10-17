@@ -23,9 +23,3 @@ Este projeto consiste em uma aplicação simples de soma, onde o usuário pode i
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
-## Estrutura do Projeto
-
-|-- index.html          # Página principal da aplicação
-|-- style.css           # Estilos CSS aplicados à página
-|-- script.js           # Lógica em JavaScript para calcular a soma
-|-- README.md           # Este arquivo com a documentação do projeto

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soma de 1 a 100</title>
+    <title>Soma de 1 até N</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Cálculo da Soma de 1 a 100</h1>
-        <p>Clique no botão abaixo para calcular a soma dos números de 1 a 100.</p>
+        <h1>Cálculo da Soma de 1 até 100</h1>
+        <p>Insira um número entre 1 e 100 e clique no botão para calcular a soma:</p>
+        <input type="number" id="numero-input" placeholder="Digite um número" min="1" max="100">
         <button id="calcular-btn" class="btn">CALCULAR</button>
         <div id="resultado" class="resultado">O resultado aparecerá aqui</div>
     </div>
